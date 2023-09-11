@@ -1,0 +1,128 @@
+/* Styling for the search page */
+.search-page {
+  text-align: center; /* Center-align content */
+  padding: 20px; /* Add padding */
+  background-color: bisque; /* Set background color */
+  background-size: cover; /* Set background image size */
+  min-width: 1200px; /* Set minimum width */
+  min-height: 700px; /* Set minimum height */
+  display: flex; /* Use flexbox for layout */
+  justify-content: start; /* Align content to the start */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Align items to the center */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 776px) and (max-height: 776px) {
+  .search-page {
+    width: 100%; /* Set width to 100% for smaller screens */
+    height: 100%; /* Set height to 100% for smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+}
+
+/* Styling for the search container */
+.search-container {
+  margin-top: 20px; /* Add margin at the top */
+}
+
+/* Styling for input fields */
+input {
+  padding: 5px; /* Add padding */
+  margin: 5px; /* Add margin */
+}
+
+/* Styling for buttons */
+button {
+  background-color: #007bff; /* Set background color */
+  color: white; /* Set text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Styling for student details */
+.student-details {
+  margin-top: 5px; /* Add margin at the top */
+  padding: 2px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  background-color: #f9f9f9; /* Set background color */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Set width to 100% */
+}
+
+/* Styling for student container */
+.student-container {
+  background-color: orangered; /* Set background color */
+  width: 100%; /* Set width to 100% */
+}
+
+/* Styling for form container */
+.form-container {
+  height: 200px; /* Set height */
+  width: 100%; /* Set width to 100% */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Arrange items in a row */
+  align-items: start; /* Align items to the start */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  justify-content: center; /* Align content to the center */
+  padding: 10px; /* Add padding */
+}
+
+/* Styling for search results */
+.search-results {
+  width: 1400px; /* Set width */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Align items to the center */
+}
+
+/* Styling for table rows */
+.tab {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: space-around; /* Space between items */
+  width: 1300px; /* Set width */
+  margin-bottom: 10px; /* Add margin at the bottom */
+  border-radius: 2px; /* Add border radius */
+  border-width: solid; /* Set border width */
+  border-color: #ccc; /* Set border color */
+  border-style: ridge; /* Set border style */
+  padding: 10px; /* Add padding */
+}
+
+/* Styling for name column */
+.name {
+  margin-left: 40px; /* Add left margin */
+}
+
+/* Styling for address column */
+.address {
+  width: 140px; /* Set width */
+  margin-left: 70px; /* Add left margin */
+}
+
+/* Styling for ID column */
+.id {
+  width: 20px; /* Set width */
+  margin-left: 25px; /* Add left margin */
+}
+
+/* Styling for email column */
+.email {
+  width: 2px; /* Set width */
+  margin-left: 10px; /* Add left margin */
+  flex-wrap: wrap; /* Allow text to wrap */
+}
+
+/* Styling for search button */
+.searchbutton {
+  margin-top: 12px; /* Add margin at the top */
+  height: 30px; /* Set height */
+  text-align: center; /* Center-align text */
+}
+
+/* Styling for text-studentId class */
+.text-studentId {
+  margin-left: 60px; /* Add left margin */
+}

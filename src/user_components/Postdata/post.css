@@ -1,0 +1,72 @@
+/* Styling for the main container */
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  background-color: bisque;
+  height: 700px;
+}
+
+/* Styling for the student form container */
+.student-form-container {
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+}
+
+/* Styling for the student form */
+.student-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* Styling for labels */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Styling for input fields (text, email, textarea) */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 300px;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* Styling for the student name heading */
+.stdNme {
+  margin-left: 160px;
+}
+
+.reqfield {
+  color: red;
+}

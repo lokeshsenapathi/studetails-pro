@@ -1,0 +1,22 @@
+/* Styling for the navigation bar */
+.navbar {
+  background-color: #333; /* Set the background color of the navbar */
+  overflow: hidden; /* Hide any overflowing content */
+  width: 100%; /* Make the navbar span the entire width */
+}
+
+/* Styling for navigation options (links) */
+.nav-option {
+  float: left; /* Float the navigation options to the left */
+  display: block; /* Display them as block-level elements */
+  color: white; /* Set the text color to white */
+  text-align: center; /* Center-align the text */
+  padding: 14px 16px; /* Add padding around the text */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+/* Styling for navigation options on hover */
+.nav-option:hover {
+  background-color: #ddd; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
